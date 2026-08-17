@@ -616,6 +616,14 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
   padding: 200px 0;
   text-align: center;
 }
+
+@media (max-width: 780px) {
+  .final-cta {
+    background:
+      linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+      url("../assets/img/fachada-real.webp") center 85% / cover no-repeat;
+  }
+}
 .final-cta-inner { margin-top: 40px; }
 .final-cta-inner h2 { color: var(--white); font-size: clamp(1.6rem, 3vw, 2.2rem); margin-bottom: 14px; }
 .final-cta-inner p { color: rgba(255,255,255,.82); margin-bottom: 32px; font-size: 1.05rem; }
