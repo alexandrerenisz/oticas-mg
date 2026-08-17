@@ -621,7 +621,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
   .final-cta {
     background:
       linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-      url("../assets/img/fachada-real.webp") center 85% / cover no-repeat;
+      url("../assets/img/fachada-real.webp") center calc(85% + 40px) / cover no-repeat;
   }
 }
 .final-cta-inner { margin-top: 40px; }
