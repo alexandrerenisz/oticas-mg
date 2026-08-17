@@ -289,7 +289,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
 .hero-scroll-arrow svg { display: block; transform: rotate(90deg); }
 
 @media (max-width: 780px) {
-  .hero-scroll-arrow { bottom: 68px; }
+  .hero-scroll-arrow { bottom: 78px; }
 }
 @keyframes heroArrowBounce {
   0%, 100% { transform: translate(-50%, 0); }
@@ -641,7 +641,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
   .final-cta {
     background:
       linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-      url("../assets/img/fachada-real.webp") center calc(85% - 80px) / 165% no-repeat;
+      url("../assets/img/fachada-real.webp") center calc(85% - 140px) / 185% no-repeat;
   }
 }
 .final-cta-inner { margin-top: 40px; }
