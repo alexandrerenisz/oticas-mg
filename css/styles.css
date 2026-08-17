@@ -230,7 +230,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
 }
 .hero-inner {
   max-width: 760px;
-  margin: 0 auto;
+  margin: -20px auto 0;
   text-align: center;
 }
 .hero-eyebrow {
@@ -275,6 +275,22 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
   color: rgba(255,255,255,.9);
 }
 .hero-rating .stars { display: flex; gap: 2px; color: var(--teal); }
+
+.hero-scroll-arrow {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  color: var(--white);
+  opacity: .85;
+  animation: heroArrowBounce 1.8s ease-in-out infinite;
+  transition: opacity .25s ease;
+}
+.hero-scroll-arrow:hover { opacity: 1; }
+.hero-scroll-arrow svg { display: block; transform: rotate(90deg); }
+@keyframes heroArrowBounce {
+  0%, 100% { transform: translate(-50%, 0); }
+  50% { transform: translate(-50%, 10px); }
+}
 
 /* ============ TRUST BAR ============ */
 .trust-bar {
@@ -621,7 +637,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
   .final-cta {
     background:
       linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-      url("../assets/img/fachada-real.webp") center calc(85% - 120px) / cover no-repeat;
+      url("../assets/img/fachada-real.webp") center calc(85% - 160px) / cover no-repeat;
   }
 }
 .final-cta-inner { margin-top: 40px; }
