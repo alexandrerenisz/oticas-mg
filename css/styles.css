@@ -248,7 +248,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
   margin-bottom: 24px;
 }
 .hero-title {
-  font-size: clamp(2.3rem, 5.5vw, 4rem);
+  font-size: clamp(2.6rem, 6.2vw, 4.6rem);
   font-weight: 800;
   color: var(--white);
   margin-bottom: 22px;
@@ -621,7 +621,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--wine-dark); line-he
   .final-cta {
     background:
       linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-      url("../assets/img/fachada-real.webp") center calc(85% - 80px) / cover no-repeat;
+      url("../assets/img/fachada-real.webp") center calc(85% - 120px) / cover no-repeat;
   }
 }
 .final-cta-inner { margin-top: 40px; }
